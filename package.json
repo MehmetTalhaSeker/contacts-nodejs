@@ -1,0 +1,34 @@
+{
+  "name": "contacts-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node v1/src/app.js",
+    "dev": "nodemon v1/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehmetTalhaSeker/contacts-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehmetTalhaSeker/contacts-nodejs/issues"
+  },
+  "homepage": "https://github.com/MehmetTalhaSeker/contacts-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status": "^1.5.0",
+    "mongoose": "^6.1.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "helmet": "^4.6.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
